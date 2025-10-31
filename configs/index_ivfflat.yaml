@@ -1,5 +1,5 @@
-nlist: 100
-nprobe: 16
+nlist: 2000
+nprobe: 32
 metric: ip
 normalize: true
 seed: 42

@@ -1,6 +1,6 @@
 data_root: hybrid_search/data
-categories: ["All Beauty"]
-max_items: 10000
+categories: ["All Beauty", "Electronics", "Toys and Games"]
+max_items: 300000
 text:
   max_tokens: 512
   take_features: 5
