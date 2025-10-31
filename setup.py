@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="hybrid_search",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "faiss-cpu>=1.8.0",
+        "numpy>=1.26",
+        "pandas>=2.1",
+        "pyarrow>=15",
+        "sentence-transformers>=3.0",
+        "torch>=2.3",
+        "hydra-core>=1.3",
+        "tqdm>=4.66",
+        "typer[all]>=0.12",
+        "pyroaring>=0.6",
+        "matplotlib>=3.8",
+        "seaborn>=0.13",
+        "psutil>=5.9",
+        "pydantic>=2.7",
+        "orjson>=3.10",
+        "requests>=2.31",
+    ],
+)
+

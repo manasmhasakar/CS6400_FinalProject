@@ -1,0 +1,19 @@
+Loading data...
+Loading ivfflat index...
+Loading filters...
+Generating queries...
+Computing ground truth...
+Running evaluations...
+Running hybrid:   0%|          | 0/30 [00:00<?, ?it/s]Running hybrid: 100%|██████████| 30/30 [00:00<00:00, 746.68it/s]
+Running prefilter_exact:   0%|          | 0/30 [00:00<?, ?it/s]Running prefilter_exact: 100%|██████████| 30/30 [00:00<00:00, 9597.22it/s]
+Running postfilter_ann:   0%|          | 0/30 [00:00<?, ?it/s]Running postfilter_ann: 100%|██████████| 30/30 [00:00<00:00, 869.39it/s]
+✓ Results saved: hybrid_search/data/results/ivfflat_eval_results.csv
+✓ Plots saved to hybrid_search/data/results/plots
+
+=== Summary ===
+                latency_ms        recall candidates_scored
+                      mean median   mean              mean
+method                                                    
+hybrid               1.223  1.010  0.000             0.033
+postfilter_ann       1.067  0.999  0.000             0.067
+prefilter_exact      0.021  0.011  0.197            30.000

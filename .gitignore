@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Data and caches
+hybrid_search/data/
+**/raw/
+**/processed/
+**/indexes/
+**/filters/
+**/queries/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
